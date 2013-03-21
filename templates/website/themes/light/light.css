@@ -1,0 +1,44 @@
+/*
+    light theme
+*/
+#body,
+.choose-city
+{
+    background-color: #fff;
+}
+
+body,
+a
+{
+    color: #000;
+}
+
+#main-nav > ul
+{
+    background: url(/templates/website/themes/light/main-nav-bg-light.gif) repeat;
+    border: 1px solid #e0e0e0;
+}
+
+#main-nav > ul > li > a
+{
+    border-color: #bababa;
+}
+
+#main-nav li.city > a
+{
+    font-weight: bold;
+    background: url(/templates/website/themes/light/down-arrow-black.png) 145px center no-repeat;
+}
+
+#body .choose-city a:hover
+{
+    color: #fff;
+    background-color: #000;
+}
+
+.choose-city
+{
+    -webkit-box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+       -moz-box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+            box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+}

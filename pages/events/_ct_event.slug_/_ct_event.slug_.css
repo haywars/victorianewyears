@@ -1,0 +1,715 @@
+#profile-content {
+	
+}
+
+.gmaps-content {
+	color: #222;
+}
+
+.gmaps-content-title {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.gmaps-content-small-desc {
+	font-size:10px;
+}
+
+#left-content {
+	float:left;
+	margin-right: 20px;
+	width: 640px;
+}
+
+
+
+#website_sidebar_html {
+	padding-bottom: 20px;
+}
+
+#inverse-box + div {
+	clear: left;
+}
+
+#container > #content {
+	margin: 10px 20px 0 20px; /*margin fix for cravetickets*/
+}
+
+#back_link_container {
+	padding-bottom:9px;
+	margin-bottom:10px;
+	overflow:hidden;
+	border-bottom:1px solid #333;
+}
+.dark #back_link_container {
+	border-bottom-color:#CCC;
+}
+	#back_link_container > div {
+		overflow:hidden;
+	}
+		#back_link_container #back_to_all{
+			float:left;
+			margin-right:10px;
+			padding-top:6px;
+		}
+		#back_link_container #show_event_flyout {
+			float:left;
+			margin-right:10px;
+			background-position:right center;
+			background-repeat:no-repeat;
+			padding: 2px 5px;
+			padding-right:15px;
+			background-color:#ccc;
+			border-color:#aaa;
+			border-bottom-style:solid;
+			border-width:1px;
+			border-style:solid;
+			cursor:pointer;
+			font-size:18px;
+			
+		}
+		.dark #back_link_container #show_event_flyout {
+			background-color:#333;
+			border-color:#444;
+		}
+			#back_link_container #show_event_flyout.up { 
+				background-image:url('/pages/events/_ct_event.slug_/layouts/ebrite/images/flyout-down.png');
+				border-bottom-width:1px;
+				}
+			#back_link_container #show_event_flyout.down { 
+				background-image:url('/pages/events/_ct_event.slug_/layouts/ebrite/images/flyout-up.png');
+				border-bottom-width:0px;}
+		#next-prev {
+			float:right;
+		}
+			#prev_button {
+				float:left;
+			}
+			.pipe {
+				float:left;
+				margin:0 10px;
+			}
+			#next-button {
+				float:left;
+			}
+
+#side-content {
+	float:left;
+}
+
+#side-content > div {
+	width: 300px;
+}
+.bottom-padding {
+	padding-bottom: 10px;
+}
+
+#profile-headline {
+	position:relative;
+	overflow:hidden;
+}
+	#profile-headline iframe {
+		position:absolute;
+		top:0px;
+		right:0px;
+		height:28px;
+		width:150px;
+	}
+	#profile-headline #inverse-box {
+		background-color: #888;
+		color: #fff;
+		float: left;
+		margin-bottom: 10px;
+		font-size: 10px;
+		font-weight: bold;
+		text-transform:none;
+		float:left;
+		padding:4px;
+	}
+	#profile-headline #title {
+		font-size:28px;
+		margin-bottom:12px;
+		clear:both;
+		font-weight:bold;
+	}
+		#profile-headline #title span {
+			font-size:18px;
+			font-weight:normal;
+		}
+	#profile-headline #subtitle {
+		margin-bottom:12px;
+	}
+	#profile-headline #promotion  {
+		font-size:22px;
+		font-weight:bold;
+		text-transform:uppercase;
+	}
+	#profile-headline #promotion .upper {
+		text-transform:uppercase;
+	}
+	#profile-headline a.buy-button {
+		font-size:20px;
+		width: 200px;
+		margin: 15px 0 10px;
+	}
+	
+
+#social-media {
+	float:left;
+}
+	#social-media > * {
+		margin-right:10px;
+	}
+	#social-media > *:last-child {
+		margin-right: 0;
+	}
+
+.main-datetime {
+	font-size:14px;
+}
+	.main-time {
+		border-left: 1px solid #333;
+		font-weight: bold;
+		margin-left:10px;
+		padding: 5px 10px;
+	}
+
+
+a.buy-button {
+	background: #666;
+	border-bottom:1px solid #333;
+	color: #fff;
+	display:block;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 3px 5px 1px;
+	text-align: center;
+	text-decoration:none;
+	text-shadow: 1px 1px #333;
+	text-transform: uppercase;
+}
+	a.buy-button:hover {
+		background: #444;
+		border-bottom:1px solid #111;
+		text-decoration:none;
+		text-shadow: 1px 1px #000;
+	}
+	a.buy-button:active {
+		background: #333;
+	}
+
+.small a.buy-button.small {
+	font-size:10px;
+}
+
+.large, a.buy-button.large {
+	font-size:28px;
+	padding-bottom:2px;
+}
+a.buy-button.large {
+	padding-top:5px;
+}
+
+.dark #profile-content h1 {
+	color:#EEE;
+}
+#profile-content h1 .smaller {
+	display:block;
+	font-size:16px;
+}
+
+
+#profile-content > .section {
+	padding: 20px 0;
+}
+
+
+#side-content h3 {
+	color: #333;
+	font-size:15px;
+	margin:0;
+	padding:0px 10px 7px;
+
+
+}
+.dark #side-content h3 {
+	color:#CCC;
+}
+
+
+
+
+.service-charge {
+	padding-top:3px;
+}
+
+.section {
+
+}
+	.section + .section {
+		margin-top: 20px;
+	}
+
+#side-content .section {
+	/*background: #f0f0f0;
+	border: 1px solid #e0e0e0;
+	padding:10px 5px;*/
+}
+
+#side-content .section-content {
+	border-top:0;
+	margin-top:0;
+}
+
+.open-bar > div {
+	font-size:22px;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+.event-list {
+	float: left;
+	width: 200px;
+	margin: 0 20px 0 0;
+	padding: 0;
+}
+	.event-list:last-child {
+		margin-right:0;
+	}
+	.event-list h3 {
+		border-bottom: 1px solid #777;
+		font-size: 12px;
+		font-weight:bold;
+		text-transform: none;
+	}
+	.event-list li {
+		padding: 5px 0;
+		border-bottom: 1px solid #fff;
+	}
+	.event-list li:hover {
+		background: #f3f3f3;
+		border-bottom: 1px solid #eee;
+	}
+	.event-list li .date, .event-list li .event-name {
+		font-size: 11px;
+	}
+	.event-list li .event-name {
+		width:115px;
+	}
+	.event-list .date {
+		margin-right:20px;
+		width: 65px;
+	}
+
+.ticket-list {
+	background: #fff;
+	font-size:11px;
+	margin:0;
+}
+.dark .ticket-list {
+	background: #000;
+}
+	.ticket-list .ticket-name {
+		font-size:12px;
+		line-height:19px;
+	}
+	.dark #profile-content .ticket-name a {
+		color: #fff;
+	}
+	.dark #profile-content .ticket-name a:hover {
+		color: #fff;
+		text-decoration:underline;
+	}
+	#profile-content .ticket-name a {
+			color: #333;
+			text-decoration:none;
+		}
+	.ticket-list .ticket-price-container {
+		margin-left: 5px;
+		padding: 1px 10px;
+		line-height: 16px;
+	}
+	.ticket-info .ticket-price {
+		font-size:20px;
+	}
+	.ticket-list li {
+		border-bottom:1px solid #ccc;
+		margin-bottom:5px;
+		padding-bottom:5px;
+	}
+
+.when-where {
+	position:relative;
+	margin-bottom:10px;
+	font-size:12px;
+	line-height:24px;
+	overflow:hidden;
+}
+	.when-where:last-child {
+		margin-bottom:0;
+	}
+	.when-where .title {
+		width: 75px;
+	}
+	.map-link {
+		bottom:0;
+		display:block;
+		float: right;
+		margin-top:10px;
+		right: 0;
+	}
+
+.back_to_top {
+	float:right;
+	font-size:10px;
+}
+
+	.qj_to .back_to_top {
+		margin-top:8px;
+	}
+
+dl {
+	overflow:hidden;
+	font-size:12px;	
+}
+	dt {
+		background: #f3f3f3;
+		clear:left;
+		float:left;
+		font-weight: bold;
+		margin-bottom: 10px;
+		padding: 5px;
+		width: 175px;
+	}
+	dd {
+		line-height: 16px;
+		margin-left: 200px;
+		padding: 5px;
+	}
+
+.red {
+	color: red;
+}
+
+
+h5 {
+	border-bottom: 2px solid #444;
+	color: #111;
+	font-size: 14px;
+	margin: 20px 18px 0;
+	text-transform: uppercase;
+}
+ul {
+}
+
+	
+#quick_jump {
+	width: 150px;
+	min-height: 100px;
+}
+	#quick_jump ul {
+		border: 1px solid #e0e0e0;
+		margin: 0 20px 0 0;
+		padding: 0 10px;
+	}
+	#quick_jump ul.stick {
+		position:fixed;
+		top:10px;
+	}
+	#quick_jump li {
+		border-bottom: 1px solid #f0f0f0;
+		width: 107px;
+	}
+		#quick_jump li:last-child {
+			border-bottom: 0;
+		}
+	#quick_jump a {
+		text-decoration:none;
+		padding: 7px 0 5px;
+		display: block;
+		color: #333;
+	}
+	.dark #quick_jump a {
+		color:#CCC;
+	}
+		#quick_jump a:hover {
+			color: #000;
+		}
+		.dark #quick_jump a:hover {
+			color: #FFF;
+		}
+	#quick_jump ul.bottom-stick {
+		position:absolute;
+		bottom:10px;
+	}
+.qj_to {
+	width: 490px;
+}
+	.qj_to .back_to_top {
+		/*margin-top:14px;*/
+	}
+#profile-content h4 {
+	border-bottom: 1px solid #333;
+	color: #333;
+	font-size:20px;
+	padding-bottom:2px;
+}
+.dark #profile-content h4 {
+	border-bottom: 1px solid #CCC;
+	color: #CCC;
+}
+.qj_content {
+	font-size:12px;
+	padding: 10px 0 0;
+    overflow: hidden;
+}
+
+	.qj_content p, .qj_content ul, .qj_content ol {
+		padding-bottom:10px;
+	}
+	.qj_to > div {
+		margin-bottom: 10px;
+	}
+.qj_cont {
+	position:relative;
+}
+
+.dark .display_ticket {
+	background-color: #0c0c0c;
+}
+	.display_ticket h6 {
+		border-bottom: 1px solid #ddd;
+		font-size: 14px;
+		padding: 6px 10px;
+	}
+	.display_ticket h6 + div {
+		border-bottom: 1px solid #ddd;
+		margin: 5px 0;
+		padding-bottom: 5px;
+	}
+.ticket-info {
+	font-size:10px;
+	width: 135px;
+}
+.ticket-info.full-width {
+	width: 100%;
+}
+.list th, .list td {
+	padding: 3px 2px;
+	text-align: left;
+}
+	.list .top-border td {
+		border-top: 1px dashed #ccc;
+	}
+.ticket-description {
+	font-size: 12px;
+	line-height: 17px;
+	margin-left: 10px;
+	width: 325px;
+}
+.somemapcont {
+	border: 1px solid #ddd;
+	border-bottom: 3px double #ccc;
+	margin-top:15px;
+	width:100%;
+	height: 200px;
+}
+	#venue_map {
+		width: 100%;
+		height: 100%;
+	}
+.tag_container {
+	float:left;
+	margin: 0 10px 10px 0;
+}
+.event_tag.first_tag {
+	font-weight: bold;
+}
+
+
+
+
+.more_events_flyout {
+	overflow:hidden;
+	display:none;
+	background-color:#CCC;
+	font-size:10px;
+}
+.dark .more_events_flyout {
+	background-color:#333;
+}
+	.more_events_flyout .col {
+		width:150px;
+		padding:5px;
+		float:left;
+	}
+		.more_events_flyout .col .flyout_event {
+			
+		}
+			.more_events_flyout .col .flyout_event a{
+				display:block;
+				padding:3px 10px;
+				text-decoration:none;
+				color:#111;
+			}
+			.dark .more_events_flyout .col .flyout_event a {
+				color:#EEE;
+			}
+				.more_events_flyout .col .flyout_event a:hover{ background-color:#DDD; }
+				.dark .more_events_flyout .col .flyout_event a:hover{ background-color:#222; }
+
+
+
+
+
+
+	
+/* STYLE FOR THE THIS EVENT ALREADY HAPPENED STUFF */
+#this-already-happened {
+	margin:25px 0px 15px;
+	border:2px #F00 solid;
+	padding:15px;
+	font-size:24px;
+	background-color:#FF6C6C;
+	color:#000;
+	text-align:center;
+}
+	#this-already-happened a {
+		display:block;
+		color:#fff;
+	}
+
+	#an_upcoming_event {
+		padding:10px 0;
+		overflow:hidden;
+		margin-bottom:80px;
+	}
+		#upcoming-info {
+			float:left;
+			padding:0;
+			width:660px;
+		}
+			#upcoming-campaign {
+				font-size:30px;
+				margin-bottom:2px;
+			}
+			#upcoming-venue {
+				font-size:30px;
+				margin-bottom:5px;
+			}
+				#upcoming-venue span {
+					font-size:16px;
+				}
+			#upcoming-subinfo {
+			}
+				#upcoming-venue-image {
+					float:left;
+					width:300px;
+				}
+				#upcoming-subinfo img{
+					float:left;
+				}
+				#upcoming-subinfo div{
+					float:left;
+					width:340px;
+					padding:0 10px;
+				}
+					#upcoming-subinfo #upcoming-see-more {
+						width:160px;
+						background-color:#ccc;
+						color:#000;
+						float:left;
+						padding:6px 0;
+						margin:0;
+						margin-left:80px;
+						margin-top:30px;
+						display:block;
+						font-size:18px;
+						text-decoration:none;
+						text-align:center
+					}
+					.dark #upcoming-subinfo #upcoming-see-more {
+						color:#fff;
+						background-color:#333;
+					}
+					#upcoming-subinfo #upcoming-see-more:hover {
+						background-color:#AAA;
+					}
+					.dark #upcoming-subinfo #upcoming-see-more:hover {
+						background-color:#555;
+					}
+					
+		#upcoming-ad {
+			width:300px;
+			float:left;
+		}
+		#scroll_down {
+			font-size:11px;
+			text-transform:uppercase;
+			text-align:center;
+			border-bottom:2px solid #fff;
+			margin-bottom:100px;
+		}
+		
+		#upcoming-campaign-banner {
+			margin:20px 0;
+		}
+			#upcoming-campaign-banner a {
+				display:block;
+			}
+			#upcoming-campaign-banner img {
+				margin-left:100px;
+			}
+			
+			
+.twitter-count-vertical {
+	height:62px !important;
+}
+
+.dark .vf-slideshow-thumb {
+	background: #000;
+	border-bottom:0;
+}
+	.dark .vf-slideshow-thumb.selected {
+		background: #18A6E7;
+		border-bottom:0;
+	}
+.dark .vf-slideshow-controls {
+	background: #333;
+}
+
+/*
+***************** design 2012 */
+.display_ticket {
+	background: rgba(12, 12, 12, .7);
+	margin: 10px 0;
+	padding: 5px 0;
+	color:#ccc;
+}
+
+.ticket-info {
+	font-size:10px;
+	width: 100%;
+	background-color:rgba(12, 12, 12, .7);
+	margin-bottom:5px;
+}
+.display_ticket h6 {border:none; text-transform:uppercase; width:60%; float:left; line-height:40px;}
+.display_ticket h6 + div {border-color:#000;}
+
+#back_link_container {margin-bottom:1px;}
+#profile-headline #inverse-box {background-color: rgba(12, 12, 12, .8);
+	color: #aaa;
+	float: left;
+	margin-bottom: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: none;
+	float: right;
+	padding: 10px;
+	width: 592px;
+	text-align: right;
+	text-transform: uppercase;}
+	
+	#profile-headline #title {color: white;
+text-transform: uppercase;}

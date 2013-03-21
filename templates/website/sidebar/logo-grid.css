@@ -1,0 +1,10 @@
+/* CSS Document */
+
+#photo_collage {
+	margin-top:20px;
+}
+#photo_collage > a {
+	margin:5px;
+	display:block;
+	float:left;
+}

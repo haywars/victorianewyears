@@ -1,0 +1,208 @@
+#left-sidebar, #profile-body, #right-sidebar {
+	/*margin-top:20px;*/
+	float: left;
+	overflow:hidden;
+	margin-right:10px;
+/*	height:400px;
+	background: gray;*/
+}
+#left-nav {
+	width: 180px;
+}
+#profile-body {
+	width: 540px;
+}
+#right-sidebar {
+	width: 220px;
+	margin-right:0;
+}
+	html #right-sidebar > a.buy-button {
+		font-size: 16px;
+		width: 170px;
+		margin: 0 auto 10px;
+	}
+	
+#profile-body .ticket-description {
+	width: 370px;
+}
+
+#profile-body .qj_to {
+	width: 540px;
+}
+
+
+#profile-content #social-media {
+	float: none;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 20px;
+}
+
+#profile-body #profile-headline {
+	margin-bottom:10px;
+	width: auto;
+}
+
+	#profile-headline h2 {
+		margin-bottom: 10px;
+	}
+
+#profile-body #quick_jump {
+	margin-bottom: 20px;
+	min-height:0;
+}
+	#profile-body #quick_jump ul {
+		width: 538px;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+		background: #fff;
+	}
+	.dark #profile-body #quick_jump ul {
+		background:#000;
+	}
+	
+	#profile-body #quick_jump ul.stick {
+		top: 0;
+	}
+	#profile-body #quick_jump li {
+		float: left;
+		border-bottom:0;
+		width:auto;
+	}
+	#profile-body #quick_jump a {
+		padding: 7px 8px;
+		margin:3px 10px;
+	}
+		#profile-body #quick_jump a:hover {
+			background-color:#CCC;
+		}
+		.dark #profile-body #quick_jump a:hover {
+			background-color:#333;
+		}
+
+
+.ticket-header {
+	background-color:#DDD;
+	padding:5px 10px;
+	text-transform:uppercase;
+	font-size:11px;
+	font-weight:bold;
+}
+#right-sidebar .ticket-list {
+	border: 0;
+	padding: 0 0 0 0px;
+}
+
+
+
+#right-sidebar .ticket-price-container {
+	border-left: 0;
+	border-right: 0;
+	margin-left:5px;
+	padding:0;
+	text-align: right;
+}
+.ticket-price {
+	/*width:35px; this doesnt let longer prices show */
+ 	
+}
+#right-sidebar .ticket-name {
+	font-size:11px;
+	line-height: inherit;
+	width: 142px;
+}
+
+#right-sidebar a.buy-button {
+	width: auto;
+	font-size:12px;
+	margin:-1px 0;
+}
+#right-sidebar a.buy-button:active {
+	padding:3px 5px 1px;
+}
+/* overrides for left-nav-standard */
+
+#left-sidebar #left-nav-inner {
+	background: #fff;
+	/*border: 1px solid #e0e0e0;*/
+	padding:0;
+}
+#left-sidebar #search_box {
+	background: #fff;
+	padding:0;
+}
+#left-sidebar #search_field {
+	border: 1px inset #e0e0e0;
+	margin-right: 4px;
+	padding: 9px 0;
+	width: 133px;
+}
+#left-sidebar #search_button {
+	border: 1px outset #e0e0e0;
+	width: 16px;
+	height: auto;
+	text-indent: 0;
+	padding: 0 11px 5px 12px;
+	font-size: 30px;
+	text-decoration: none;
+	line-height: 29px;
+	background: #f0f0f0;
+	color: #222;
+}
+	#left-sidebar #search_button:hover {
+		background: #e0e0e0;
+		color: #111;
+	}
+#left-sidebar .picker h4 {
+	display:none;
+}
+	#left-sidebar .picker ul {
+		border-top: none;
+	}
+	#left-sidebar .picker ul li {
+		border-bottom: 1px solid #e0e0e0;
+	}
+	#left-sidebar .picker ul li a {
+		color: #333;
+		background: none;
+		font-size: 12px;
+		text-decoration:none;
+	}
+
+#profile-content .when-where .float-left {
+	float: none;
+}
+
+#profile-content {
+	background-color:#fff;
+}
+.dark #profile-content {
+	background-color:#000;
+}
+
+
+
+.service-charge {
+	display:none;
+}
+
+#show_event_flyout {
+	display:none;
+}
+
+html .when-where {
+	font-weight:bold;
+	font-size:14px;
+	line-height:19px;
+	margin-top:10px;
+	margin-bottom:0px;
+}
+
+.nye2 .ticket-list li {
+	margin-bottom:5px;
+	padding-bottom:5px;
+}
+
+#profile-content.nye2 #social-media {
+	margin-bottom:10px;
+}

@@ -1,0 +1,123 @@
+#side-content #social-media {
+	float:none;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 10px;
+}
+
+#tickets_container {
+	list-style:none;
+	border-top: 1px solid;
+	overflow:hidden;
+	margin:0 0 10px 0;
+	padding:0;
+}
+	
+	#tickets_container li {
+		border-bottom: 1px solid;
+	}
+		#profile-content #tickets_container .ticket-name a {
+			color:#000;
+		}
+		.dark #profile-content #tickets_container .ticket-name a {
+			color:#fff;
+		}
+		
+	#ticket_container, #tickets_container li {
+		border-color: #ccc;
+		overflow:hidden;
+		padding: 3px 0;
+	}
+
+	#tickets_container .tickets_announced {
+		padding-top:3px;
+	}
+
+	#tickets_container .ticket-buy-container {
+		float: right;
+
+	}
+
+	#tickets_container .ticket-name {
+		float: left;
+	}
+
+	#tickets_container .ticket-price-container {
+		margin-right:10px;
+	}
+
+	#tickets_container .ticket-price {
+		text-align: right;
+		width: 100px;
+	}
+
+	#tickets_container .ticket-price, #tickets_container .ticket-name {
+		padding-top:3px;
+	}
+
+	#tickets_container .service-charge {
+		display:none;
+	}
+	
+	#ww_date, #ww_name {
+		font-size:18px;
+		font-weight:bold;
+		padding-top:8px;
+		border-top:1px solid #777;
+		margin-bottom:-4px;
+		
+		
+	}
+	#ww_time, #ww_address, #ww_city {
+		font-size:16px;
+		margin-bottom:-4px;
+	}
+
+
+
+	.padded-section {
+		background-color:#E0E0E0;
+		padding:5px;
+		margin-top:30px;
+	}
+	.dark .padded-section {
+		background-color:#1f1f1f
+	}
+		#side-content .padded-section h3 {
+			padding:0 5px;
+			font-size:18px;
+			font-weight:bold;
+		}
+		.padded-section ul {
+			list-style:none;
+			margin:0;
+		}
+			.padded-section li {
+				margin-top:5px;
+			}
+				.padded-section li.option{
+					background-color:green;
+					text-size:12px;
+					background-color:#FFF;
+				}
+					.padded-section li.option a {
+						display:block;
+						padding:4px;
+						color:#000;
+						text-decoration:none;
+
+					}
+				.dark .padded-section li.option {
+					background-color:#000;
+				}
+					.dark .padded-section li.option a {
+						color:#FFF;
+					}
+					.padded-section li.option:hover {
+						background-color:#EEE;
+					}
+					.dark .padded-section li.option:hover {
+						background-color:#111;
+					}
+			.padded-section .tags li {
+				padding:4px;
+			}

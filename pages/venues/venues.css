@@ -1,0 +1,337 @@
+/* LISTING */
+
+.venue-left-nav {float:left;}
+
+#venues-listing-container {
+    float:left;
+    width:560px;
+    margin-left:15px;
+}
+#venues-listing-header {
+	background-color: rgba(40, 40, 40, .7);
+    font-size:48px;
+    padding-left:10px;
+	margin-top:5px;
+    width:550px;
+    text-transform:uppercase;
+    font-weight:bold;
+    border-bottom:double #222;
+	font-family: futuraLT
+}
+#venues-listing-blurb {
+    margin-left:10px;
+    margin-top:10px;
+}
+#venues-listing {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 560px;
+    margin-top: 20px;
+}
+.venues-listing-row {
+    border-bottom: #ccc solid 1px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    width: 560px;
+    height: 146px;
+}
+.highlight-y {
+    background: url(/templates/website/images/listing-open-bg.jpg) repeat-x;
+}
+.highlight-b {
+    background: url(/templates/website/images/listing-open-bg2.jpg) repeat-x;    
+}
+.venues-listing-col-1 {
+    float:left;
+    width: 80px;
+}
+.venues-listing-col-2 {
+    float:left;
+    padding-top: 10px;
+}
+.venues-listing-col-3 {
+    float:left;
+    width: 314px;    
+    margin-top:10px;
+}
+
+.add-top-margin {
+    margin-top:35px;
+}    
+.venues-listing-number {
+    padding-top:10px;
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+    font-size:24px;    
+}
+.venues-listing-total {
+    font-size: 12px;
+    width:100%;
+    text-align:center;
+}
+.venues-listing-venue-info-open {
+    padding-top:10px;
+    width:115px;
+    float:left;
+}
+.venues-listing-venue-info-closed {
+    padding-top:5px;
+    width:281px;
+    float:left;
+}
+.venues-listing-venue-name {
+    font-size:16px;
+    font-weight:bold;
+	text-transform: uppercase;    
+}
+.venues-listing-venue-name:hover a:hover {color:#fff !important; text-decoration:none;}
+.venues-listing-venue-type {
+    font-size:16px;
+    font-weight:normal;    
+}
+.venues-listing-photo {
+    margin-right:10px;
+    width:156px;
+}
+.venues-listing-buttons-container {
+    position: absolute;
+    margin-left: 195px;
+    margin-top: 85px;
+} 
+.venues-listing-venue-address {
+    margin-top: 10px;
+    clear:both;
+    color:#3399cc;
+}
+.venues-listing-buttons {
+    margin-top:10px;    
+}
+
+
+
+
+
+
+
+
+/* PROFILE */
+#venue_banner{
+    position:relative;
+    position:block;
+}
+    #venue_title{
+background: -moz-linear-gradient(left,  rgba(51,51,51,0.7) 0%, rgba(81,81,81,0.4) 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(51,51,51,0.7)), color-stop(100%,rgba(81,81,81,0.4)));
+background: -webkit-linear-gradient(left,  rgba(51,51,51,0.7) 0%,rgba(81,81,81,0.4) 100%);
+background: -o-linear-gradient(left,  rgba(51,51,51,0.7) 0%,rgba(81,81,81,0.4) 100%);
+background: -ms-linear-gradient(left,  rgba(51,51,51,0.7) 0%,rgba(81,81,81,0.4) 100%);
+background: linear-gradient(to right,  rgba(51,51,51,0.7) 0%,rgba(81,81,81,0.4) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3333333', endColorstr='#8a515151',GradientType=1 );
+        bottom:3px;
+        color:#fff;
+		font-family:futuraLT;
+        font-size:55px;
+        left:0;
+        margin:0;
+        padding:15px 40px 10px 20px;
+        position:absolute;
+		text-transform:uppercase;
+    }
+
+#venue_info > div {
+    width:313px;
+    float:left;
+    margin-left:10px;
+}
+#venue_info > div:first-child {
+    margin-left:0px;
+}
+.grid_item{
+    margin:5px 0 15px;
+}
+#venue_map a{
+    font-size:14px;
+    padding-top:5px;
+    text-align:center;
+    display: block;
+}    
+#venue_info .univers {
+    font-size: 24px;
+    padding: 5px 0px 5px 20px;
+    margin: 0;
+    margin-bottom: 6px;
+    color: white;
+    background-color: rgb(62,62,62);
+    min-height: 29px;
+}    
+    #venue_info .grid_list_title {
+        background-color: rgba(62,62,62, .7);
+        color: #86b441;
+        font-size: 14px;        
+        margin-top: 15px;
+        margin-bottom: 3px;	
+		text-transform:uppercase;
+		padding:5px 0 5px 20px;	
+    }
+	.grid_list_item .grid_list_title {margin-left:-20px;}
+	.grid_list_item a {color:#cfdcb9; text-decoration:underline;}
+	.grid_list_item a:hover {color:#98cc4a; text-decoration:none;}
+    #venue_info .grid_list_item {     
+		padding-left:20px;
+    }
+	
+	
+
+/* FOURSQUARE TIPS */
+#venue_info .univers.tips {
+    background-image:url('/pages/_market.slug_/venues/images/foursquare-transp-25.png');
+    background-repeat:no-repeat;
+    background-position:10px 9px;
+    padding-left:104px;
+}
+.tip {
+    padding:6px 5px;
+    margin:0 5px;
+    font-size:10px;
+    border-bottom:1px solid #CCC;
+    overflow:hidden;
+}
+    .tip .pic {
+        
+    }
+    .tip .pic img {
+        border: 1px solid #CCC;
+        padding: 3px;
+        background-color:#fff;
+        height:30px;
+        width:30px;
+        float:left;
+    }
+    .tip .text {
+        margin-left:45px;
+    }
+    .tip .text .name {
+        font-weight:bold;
+        font-size:18px;
+        color: #2398C9;
+        text-decoration: none;
+    }
+    .tip .text .date {
+        font-size:12px;
+        color:#666;
+        padding-left:10px;
+    }
+
+
+/* TWITTER CSS */
+.twitter {
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    padding:10px;
+}
+.twitter .tweet {
+    line-height:19px;
+    font-size:15px;
+    color:#000;
+    padding:5px 0;
+    border-bottom:1px solid #aaa;
+}
+.twitter .tweet a {color:#333 !important;}
+.twitter .tweet a:hover {color:#E1FF67 !important;}
+.twitter .tweet:last-child {
+    padding-bottom:0px;
+    border-bottom:none;
+}
+.twitter .tweet_time {
+    line-height:15x;
+    font-size:11px;
+    color:#333;
+    margin-bottom:8px;
+}
+
+
+/* UPCOMING EVENTS BOX */
+.venue_event {
+    margin:15px 0;
+    overflow:hidden;
+}
+    .venue_event .event_img {
+        float:left;
+        margin-right:10px;
+        margin-bottom:5px;    
+        display:block;
+    }
+        .venue_event img {
+            float:left;
+
+        }
+    .venue_event .event_title a {
+        font-weight:bold;
+        margin-bottom:4px;
+    }
+    .venue_event .event_date {
+        margin-bottom:4px;
+    }
+    .venue_event .address {
+        margin-bottom:4px;
+    }
+    .venue_event .subtitle {
+        font-size:10px;
+    }
+    .venue_event a.button {
+        float:right;
+    }
+	
+/*
+***************** venue listing events styles */
+#searchbox {background:rgba(15,15,15,.75);border-color: #1F1F1F; color:#ccc;
+}
+
+
+#venues-listing-container {background:rgba(191,191,191,0.61) !important;}
+
+.venues-listing-buttons {
+	background: rgb(140,131,107);
+background: -moz-linear-gradient(top,  rgba(140,131,107,1) 2%, rgba(173,165,142,1) 30%, rgba(127,119,98,1) 79%, rgba(73,60,38,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,rgba(140,131,107,1)), color-stop(30%,rgba(173,165,142,1)), color-stop(79%,rgba(127,119,98,1)), color-stop(100%,rgba(73,60,38,1)));
+background: -webkit-linear-gradient(top,  rgba(140,131,107,1) 2%,rgba(173,165,142,1) 30%,rgba(127,119,98,1) 79%,rgba(73,60,38,1) 100%);
+background: -o-linear-gradient(top,  rgba(140,131,107,1) 2%,rgba(173,165,142,1) 30%,rgba(127,119,98,1) 79%,rgba(73,60,38,1) 100%);
+background: -ms-linear-gradient(top,  rgba(140,131,107,1) 2%,rgba(173,165,142,1) 30%,rgba(127,119,98,1) 79%,rgba(73,60,38,1) 100%);
+background: linear-gradient(to bottom,  rgba(140,131,107,1) 2%,rgba(173,165,142,1) 30%,rgba(127,119,98,1) 79%,rgba(73,60,38,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c836b', endColorstr='#493c26',GradientType=0 );
+
+	line-height:28px;	
+}
+.venues-listing-buttons:hover {
+	background: rgb(237,227,156);
+	background: -moz-linear-gradient(top,  rgba(237,227,156,1) 2%, rgba(255,247,186,1) 31%, rgba(187,156,66,1) 78%, rgba(163,135,58,1) 89%, rgba(142,121,62,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,rgba(237,227,156,1)), color-stop(31%,rgba(255,247,186,1)), color-stop(78%,rgba(187,156,66,1)), color-stop(89%,rgba(163,135,58,1)), color-stop(100%,rgba(142,121,62,1)));
+	background: -webkit-linear-gradient(top,  rgba(237,227,156,1) 2%,rgba(255,247,186,1) 31%,rgba(187,156,66,1) 78%,rgba(163,135,58,1) 89%,rgba(142,121,62,1) 100%);
+	background: -o-linear-gradient(top,  rgba(237,227,156,1) 2%,rgba(255,247,186,1) 31%,rgba(187,156,66,1) 78%,rgba(163,135,58,1) 89%,rgba(142,121,62,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(237,227,156,1) 2%,rgba(255,247,186,1) 31%,rgba(187,156,66,1) 78%,rgba(163,135,58,1) 89%,rgba(142,121,62,1) 100%);
+	background: linear-gradient(to bottom,  rgba(237,227,156,1) 2%,rgba(255,247,186,1) 31%,rgba(187,156,66,1) 78%,rgba(163,135,58,1) 89%,rgba(142,121,62,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ede39c', endColorstr='#8e793e',GradientType=0 );	
+
+}
+.venues-listing-buttons a {color:#fff !important; padding:5px 10px; font-size:18px;	font-family:futuraLT, sans-serif;}
+.venues-listing-buttons:hover a {color:#121809 !important;}
+
+.venues-listing-photo {padding:5px 5px 4px; width:158px !important;
+	background: rgb(63,69,53);
+background: -moz-linear-gradient(top,  rgba(63,69,53,1) 0%, rgba(80,86,71,1) 31%, rgba(34,39,27,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(63,69,53,1)), color-stop(31%,rgba(80,86,71,1)), color-stop(100%,rgba(34,39,27,1)));
+background: -webkit-linear-gradient(top,  rgba(63,69,53,1) 0%,rgba(80,86,71,1) 31%,rgba(34,39,27,1) 100%);
+background: -o-linear-gradient(top,  rgba(63,69,53,1) 0%,rgba(80,86,71,1) 31%,rgba(34,39,27,1) 100%);
+background: -ms-linear-gradient(top,  rgba(63,69,53,1) 0%,rgba(80,86,71,1) 31%,rgba(34,39,27,1) 100%);
+background: linear-gradient(to bottom,  rgba(63,69,53,1) 0%,rgba(80,86,71,1) 31%,rgba(34,39,27,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4535', endColorstr='#22271b',GradientType=0 );
+}
+
+.venues-listing-photo:hover {background: #CC0018;}
+.venues-listing-photo img {border:#333 solid 1px; width:100%;}
+.venues-listing-photo:hover img {border-color:#8e0011;}
+venues-listing-row {padding-bottom:5px;}
+.venues-listing-col-3 {width:302px;}
+
+#venue_info {background:rgba(193, 190, 160, 0.61);}
+#venue_banner img {width:960px;}
+

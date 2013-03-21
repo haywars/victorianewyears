@@ -1,0 +1,54 @@
+/*
+    dark theme
+*/
+#body,
+.choose-city
+{
+    background-color: #000;
+}
+
+body,
+a
+{
+    color: #fff;
+}
+
+#main-nav > ul
+{
+    background: url(/templates/website/themes/dark/main-nav-bg-dark.gif) repeat;
+    border: 1px solid #212121;
+}
+
+#main-nav > ul > li > a
+{
+    border-color: #3c3c3c;
+}
+
+#main-nav li.city > a
+{
+    font-weight: bold;
+    background: url(/templates/website/themes/dark/down-arrow-white.png) 145px center no-repeat;
+}
+
+#body .choose-city a:hover
+{
+    color: #000;
+    background-color: #fff;
+}
+
+.choose-city
+{
+    -webkit-box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+       -moz-box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+            box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.pagination-link
+{
+    background-color: #333;
+}
+
+#body a.pagination-link.selected
+{
+    color: #000;
+}
